@@ -1,0 +1,43 @@
+.flight-status {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.flight-status .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    /* Add margin to separate the form from the table */
+}
+
+.flight-status .form input,
+.flight-status .form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.flight-status table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.flight-status table th,
+.flight-status table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.flight-status table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
